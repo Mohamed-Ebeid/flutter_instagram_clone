@@ -11,6 +11,6 @@ List<Widget> bottomNavBarItems = [
   const HomeScreen(),
   const SearchScreen(),
   const AddPostScreen(),
-  const Text('Favouirte'),
+  const Center(child: Text('Favourite! coming soon...')),
   ProfileScreen(uid: FirebaseAuth.instance.currentUser!.uid),
 ];
